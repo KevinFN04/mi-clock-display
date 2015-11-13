@@ -25,7 +25,7 @@ public class NumberDisplay
      */
     public void setValue(int valorAc)
     {
-        if (valorAc <= limite){
+        if (valorAc < limite){
             valor = valorAc;
         }
     }
