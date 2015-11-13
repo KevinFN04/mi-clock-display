@@ -8,26 +8,26 @@
 public class NumberDisplay
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int valor;
+    private int limite;
 
     /**
-     * Constructor for objects of class NumberDisplay
+     * Constructor for objects of class NumberDisplayHours, que pone el display a 0 y fija un limite
      */
-    public NumberDisplay()
+    public NumberDisplay(int limit)
     {
-        // initialise instance variables
-        x = 0;
+        valor = 0;
+        limite = limit;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Metodo que fija un valor al display.
      */
-    public int sampleMethod(int y)
+    public void setValue(int valorAc)
     {
-        // put your code here
-        return x + y;
+        if (valorAc <= limite){
+            valor = valorAc;
+        }
     }
 }
+   
