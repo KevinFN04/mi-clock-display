@@ -43,10 +43,23 @@ public class NumberDisplay
     /**
      * Mostrar valor actual del display como entero.
      */
-    public int gatValue()
+    public int getValue()
     {
         return valor;
     }
+    
+    /**
+     * Sumar uno al display hasta reiniciar en el limite.
+     */
+    public void increnent()
+    {
+        int limiteT = limite - 1;
+        if (valor >= limiteT){
+            valor = 0;
+        }
+        else {
+            valor = valor + 1;
+        }
+    }
 }
-
    
