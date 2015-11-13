@@ -39,6 +39,14 @@ public class NumberDisplay
        String display = String.format(DisplAc,valor);
        return display;
     }
+    
+    /**
+     * Mostrar valor actual del display como entero.
+     */
+    public int gatValue()
+    {
+        return valor;
+    }
 }
 
    
