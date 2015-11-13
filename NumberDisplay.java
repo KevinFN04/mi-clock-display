@@ -29,5 +29,16 @@ public class NumberDisplay
             valor = valorAc;
         }
     }
+    
+       /**
+     * Mostrar valor actual del display con 2 digitos.
+     */
+    public String getDisplayValue()
+    {
+       String DisplAc = "%02d";
+       String display = String.format(DisplAc,valor);
+       return display;
+    }
 }
+
    
