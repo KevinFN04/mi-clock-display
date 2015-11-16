@@ -12,6 +12,6 @@ comment3.params=
 comment3.target=int\ getValue()
 comment3.text=\r\n\ Mostrar\ valor\ actual\ del\ display\ como\ entero.\r\n
 comment4.params=
-comment4.target=void\ increnent()
+comment4.target=void\ increment()
 comment4.text=\r\n\ Sumar\ uno\ al\ display\ hasta\ reiniciar\ en\ el\ limite.\r\n
 numComments=5

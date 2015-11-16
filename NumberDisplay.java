@@ -7,7 +7,6 @@
  */
 public class NumberDisplay
 {
-    // instance variables - replace the example below with your own
     private int valor;
     private int limite;
 
@@ -25,7 +24,7 @@ public class NumberDisplay
      */
     public void setValue(int valorAc)
     {
-        if (valorAc < limite){
+        if (valorAc < limite && valorAc > 0){
             valor = valorAc;
         }
     }
@@ -51,10 +50,9 @@ public class NumberDisplay
     /**
      * Sumar uno al display hasta reiniciar en el limite.
      */
-    public void increnent()
+    public void increment()
     {
-        int limiteT = limite - 1;
-        if (valor >= limiteT){
+        if (valor >= limite - 1){
             valor = 0;
         }
         else {
