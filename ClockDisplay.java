@@ -36,4 +36,15 @@ public class ClockDisplay
         horaSt = horas.getDisplayValue() + ":" + minutos.getDisplayValue();
     }
     
+        /**
+     * Metodo para fijar la hora
+     */ 
+    public void setTime(int horaAc, int minutosAc)
+    {
+        horas.setValue(horaAc);
+        minutos.setValue(minutosAc);
+        horaSt = horas.getDisplayValue() + ":" + minutos.getDisplayValue();
+    }
+    
+
 }
