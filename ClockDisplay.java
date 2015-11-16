@@ -46,5 +46,27 @@ public class ClockDisplay
         horaSt = horas.getDisplayValue() + ":" + minutos.getDisplayValue();
     }
     
-
+        /**
+     * Metodo para devolver la hora.
+     */ 
+    public String getTime()
+    {
+        return horaSt;
+    }
+    
+    /**
+     * Metodo para pasar los minutos y las horas.
+     */ 
+    public void timeTick()
+    {
+        if (minutos.getValue() == 59){
+            minutos.increment();
+            horas.increment();
+            horaSt = horas.getDisplayValue() + ":" + minutos.getDisplayValue();
+        }
+        else{
+            minutos.increment();
+            horaSt = horas.getDisplayValue() + ":" + minutos.getDisplayValue(); 
+        }
+    }
 }
