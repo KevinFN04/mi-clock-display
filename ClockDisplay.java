@@ -7,8 +7,11 @@
  */
 public class ClockDisplay
 {
+    //Variable de las horas
     private NumberDisplay horas;
+    //Variale de los minutos
     private NumberDisplay minutos;
+    //Variable String de 5 digitos con ls hora
     private String horaSt;
     
 
