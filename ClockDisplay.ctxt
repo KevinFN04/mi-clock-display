@@ -2,11 +2,11 @@
 comment0.params=
 comment0.target=ClockDisplay()
 comment0.text=\r\n\ Constructor\ para\ poner\ la\ hora\ a\ cero\ al\ iniciar.\r\n
-comment1.params=horaAc\ minutosAc
-comment1.target=ClockDisplay(int,\ int)
+comment1.params=horaAc\ minutosAc\ meridianAc
+comment1.target=ClockDisplay(int,\ int,\ java.lang.String)
 comment1.text=\r\n\ Constructor\ para\ fijar\ una\ hora\ al\ iniciar.\r\n
-comment2.params=horaAc\ minutosAc
-comment2.target=void\ setTime(int,\ int)
+comment2.params=horaAc2\ minutosAc2\ meridianAc2
+comment2.target=void\ setTime(int,\ int,\ java.lang.String)
 comment2.text=\r\n\ Metodo\ para\ fijar\ la\ hora\r\n
 comment3.params=
 comment3.target=java.lang.String\ getTime()
